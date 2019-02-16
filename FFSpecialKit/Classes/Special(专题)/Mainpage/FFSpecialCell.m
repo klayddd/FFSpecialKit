@@ -11,7 +11,7 @@
 #import "FFSpecialCellBottomView.h"
 #import "FFSpecialListReformerKeys.h"
 #import "FFAuthorListReformerKeys.h"
-#import "FFAuthorListReformer.h"
+//#import "FFAuthorListReformer.h"
 
 @interface FFSpecialCell ()
 
@@ -146,18 +146,18 @@
     [RACObserve(self, dataDict) subscribeNext:^(NSDictionary *data) {
         @strongify(self)
     
-        FFAuthorListReformer *reformer = [[FFAuthorListReformer alloc] init];
-        NSDictionary *author = [reformer reformData:data[kAuthorReformer]];
+//        FFAuthorListReformer *reformer = [[FFAuthorListReformer alloc] init];
+//        NSDictionary *author = [reformer reformData:data[kAuthorReformer]];
         [self.pictureView yy_setImageWithURL:data[kSpecialPropertyListKeyPictureURL] placeholder:[UIImage imageNamed:@"placehodler"]];
-        [self.headImgView yy_setImageWithURL:author[kAuthorPropertyListHeaderURL] placeholder:[UIImage imageNamed:@"pc_default_avatar"]];
+//        [self.headImgView yy_setImageWithURL:author[kAuthorPropertyListHeaderURL] placeholder:[UIImage imageNamed:@"pc_default_avatar"]];
         self.identityLabel.text = data[kSpecialPropertyListKeyAuthorIdentity];
         self.categoryLabel.text = data[kSpecialPropertyListKeyCategoryName];
-        self.authorLabel.text = author[kAuthorPropertyListKeyName];
+//        self.authorLabel.text = author[kAuthorPropertyListKeyName];
         self.titleLabel.text = data[kSpecialPropertyListKeyTitle];
         self.descLabel.text = data[kSpecialPropertyListKeyDesc];
-        if (author[kAuthorPropertyListKeyAuthIcon]) {
-            self.authImgView.image = author[kAuthorPropertyListKeyAuthIcon];
-        }
+//        if (author[kAuthorPropertyListKeyAuthIcon]) {
+//            self.authImgView.image = author[kAuthorPropertyListKeyAuthIcon];
+//        }
         [self.bottomView.readBtn setTitle:data[kSpecialPropertyListKeyRead] forState:UIControlStateNormal];
         [self.bottomView.followBtn setTitle:data[kSpecialPropertyListKeyFollowNum] forState:UIControlStateNormal];
         [self.bottomView.commentBtn setTitle:data[kSpecialPropertyListKeyCommentNum] forState:UIControlStateNormal];
