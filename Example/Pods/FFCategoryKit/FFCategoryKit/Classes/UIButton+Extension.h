@@ -10,6 +10,6 @@
 
 @interface UIButton (Extension)
 
-- (void)title:(NSString *)title titleColor:(UIColor *)titleColor image:(NSString *)image backgroundColor:(UIColor *)backgroundColor fontSize:(CGFloat)fontSize target:(id)target action:(SEL)action;
+- (void)title:(NSString *)title titleColor:(UIColor *)titleColor image:(UIImage *)image backgroundColor:(UIColor *)backgroundColor fontSize:(CGFloat)fontSize target:(id)target action:(SEL)action;
 
 @end

@@ -67,9 +67,9 @@
 }
 
 - (UIButton *)createBtn:(NSString *)imageName{
-   
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btn title:nil titleColor:kHexColor_555 image:imageName backgroundColor:nil fontSize:FONT_SIZE_12 target:nil action:nil];
+    UIImage *img_btn = load_bundle ? [UIImage ff_imagePathWithName:imageName bundle:@"FFSpecialKit" targetClass:[self class]] : [UIImage imageNamed:imageName];
+    [btn title:nil titleColor:kHexColor_555 image:img_btn backgroundColor:nil fontSize:FONT_SIZE_12 target:nil action:nil];
     [btn sizeToFit];
     btn.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -FFButtonTitleImageMargin);
     return btn;

@@ -58,6 +58,10 @@
 		AEF99F982217AA070047CA57 /* hp_count.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF99F7E2217AA070047CA57 /* hp_count.png */; };
 		AEF99F992217AA070047CA57 /* pc_default_avatar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF99F7F2217AA070047CA57 /* pc_default_avatar@3x.png */; };
 		AEF99F9A2217AA070047CA57 /* p_comment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF99F802217AA070047CA57 /* p_comment@3x.png */; };
+		AEF99F9D2217DB8B0047CA57 /* Target_Special.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF99F9C2217DB8B0047CA57 /* Target_Special.m */; };
+		AEF99FAD2217F3010047CA57 /* personAuth@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF99FAA2217F3010047CA57 /* personAuth@3x.png */; };
+		AEF99FAE2217F3010047CA57 /* personAuth.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF99FAB2217F3010047CA57 /* personAuth.png */; };
+		AEF99FAF2217F3010047CA57 /* personAuth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF99FAC2217F3010047CA57 /* personAuth@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +145,11 @@
 		AEF99F7E2217AA070047CA57 /* hp_count.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp_count.png; sourceTree = "<group>"; };
 		AEF99F7F2217AA070047CA57 /* pc_default_avatar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pc_default_avatar@3x.png"; sourceTree = "<group>"; };
 		AEF99F802217AA070047CA57 /* p_comment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p_comment@3x.png"; sourceTree = "<group>"; };
+		AEF99F9B2217DB8B0047CA57 /* Target_Special.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Special.h; sourceTree = "<group>"; };
+		AEF99F9C2217DB8B0047CA57 /* Target_Special.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Special.m; sourceTree = "<group>"; };
+		AEF99FAA2217F3010047CA57 /* personAuth@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personAuth@3x.png"; sourceTree = "<group>"; };
+		AEF99FAB2217F3010047CA57 /* personAuth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personAuth.png; sourceTree = "<group>"; };
+		AEF99FAC2217F3010047CA57 /* personAuth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "personAuth@2x.png"; sourceTree = "<group>"; };
 		B00684B65861D22FD667200C /* Pods-FFSpecialKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFSpecialKit_Example.release.xcconfig"; path = "Target Support Files/Pods-FFSpecialKit_Example/Pods-FFSpecialKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F54D80700B38F6EB30013F50 /* Pods-FFSpecialKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFSpecialKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-FFSpecialKit_Example/Pods-FFSpecialKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -267,6 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				AE9FC08E2216A71A007A557B /* FFSpecialKit.h */,
+				AEF99F9B2217DB8B0047CA57 /* Target_Special.h */,
+				AEF99F9C2217DB8B0047CA57 /* Target_Special.m */,
 				AE9FC08F2216A71A007A557B /* Mainpage */,
 				AE9FC09A2216A71A007A557B /* Detail */,
 			);
@@ -277,15 +288,15 @@
 			isa = PBXGroup;
 			children = (
 				AE9FC0902216A71A007A557B /* FFSpecialController.h */,
+				AE9FC0972216A71A007A557B /* FFSpecialController.m */,
+				AE9FC0962216A71A007A557B /* FFSpecialCellBottomView.h */,
 				AE9FC0912216A71A007A557B /* FFSpecialCellBottomView.m */,
 				AE9FC0922216A71A007A557B /* SpecialAPIRequest.h */,
-				AE9FC0932216A71A007A557B /* FFSpecialListReformer.h */,
-				AE9FC0942216A71A007A557B /* FFSpecialCell.h */,
 				AE9FC0952216A71A007A557B /* SpecialAPIRequest.m */,
-				AE9FC0962216A71A007A557B /* FFSpecialCellBottomView.h */,
-				AE9FC0972216A71A007A557B /* FFSpecialController.m */,
-				AE9FC0982216A71A007A557B /* FFSpecialListReformer.m */,
+				AE9FC0942216A71A007A557B /* FFSpecialCell.h */,
 				AE9FC0992216A71A007A557B /* FFSpecialCell.m */,
+				AE9FC0932216A71A007A557B /* FFSpecialListReformer.h */,
+				AE9FC0982216A71A007A557B /* FFSpecialListReformer.m */,
 			);
 			path = Mainpage;
 			sourceTree = "<group>";
@@ -293,10 +304,10 @@
 		AE9FC09A2216A71A007A557B /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				AE9FC09B2216A71A007A557B /* FFSpecialDetailView.h */,
-				AE9FC09C2216A71A007A557B /* FFSpecialDetailController.h */,
-				AE9FC09D2216A71A007A557B /* FFSpecialDetailView.m */,
 				AE9FC09E2216A71A007A557B /* FFSecialDetailView.xib */,
+				AE9FC09B2216A71A007A557B /* FFSpecialDetailView.h */,
+				AE9FC09D2216A71A007A557B /* FFSpecialDetailView.m */,
+				AE9FC09C2216A71A007A557B /* FFSpecialDetailController.h */,
 				AE9FC09F2216A71A007A557B /* FFSpecialDetailController.m */,
 			);
 			path = Detail;
@@ -305,6 +316,9 @@
 		AEF99F652217AA070047CA57 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AEF99FAB2217F3010047CA57 /* personAuth.png */,
+				AEF99FAC2217F3010047CA57 /* personAuth@2x.png */,
+				AEF99FAA2217F3010047CA57 /* personAuth@3x.png */,
 				AEF99F662217AA070047CA57 /* hp_count@3x.png */,
 				AEF99F672217AA070047CA57 /* placehodlerX.png */,
 				AEF99F682217AA070047CA57 /* placehodler.png */,
@@ -451,6 +465,7 @@
 				AEF99F832217AA070047CA57 /* placehodler.png in Resources */,
 				AEF99F9A2217AA070047CA57 /* p_comment@3x.png in Resources */,
 				AE9FC0A62216A71A007A557B /* FFSecialDetailView.xib in Resources */,
+				AEF99FAF2217F3010047CA57 /* personAuth@2x.png in Resources */,
 				AEF99F8A2217AA070047CA57 /* placehodler@3x.png in Resources */,
 				AEF99F8B2217AA070047CA57 /* author_page.json in Resources */,
 				AEF99F842217AA070047CA57 /* hp_count@2x.png in Resources */,
@@ -458,10 +473,12 @@
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				AEF99F812217AA070047CA57 /* hp_count@3x.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				AEF99FAE2217F3010047CA57 /* personAuth.png in Resources */,
 				AEF99F882217AA070047CA57 /* underLine@2x.png in Resources */,
 				AEF99F932217AA070047CA57 /* CODE LIGHT.OTF in Resources */,
 				AEF99F8C2217AA070047CA57 /* underLine@3x.png in Resources */,
 				AEF99F912217AA070047CA57 /* special_page.json in Resources */,
+				AEF99FAD2217F3010047CA57 /* personAuth@3x.png in Resources */,
 				AEF99F942217AA070047CA57 /* 方正兰亭纤黑简体.TTF in Resources */,
 				AEF99F862217AA070047CA57 /* pc_default_avatar.png in Resources */,
 				AEF99F902217AA070047CA57 /* p_zan.png in Resources */,
@@ -590,6 +607,7 @@
 				AE9FC0A02216A71A007A557B /* FFSpecialCellBottomView.m in Sources */,
 				AE9FC0A12216A71A007A557B /* SpecialAPIRequest.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
+				AEF99F9D2217DB8B0047CA57 /* Target_Special.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				AE9FC0A22216A71A007A557B /* FFSpecialController.m in Sources */,
 				AE9FC0A42216A71A007A557B /* FFSpecialCell.m in Sources */,

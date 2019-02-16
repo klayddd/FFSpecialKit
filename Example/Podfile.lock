@@ -17,13 +17,13 @@ PODS:
   - FFAPIsKit (0.1.0):
     - AFNetworking
     - FFToolsKit
-  - FFCategoryKit (0.3.0)
+  - FFCategoryKit (0.5.0)
   - FFCellsKit (0.1.0)
   - FFConfigsKit (0.1.0)
   - FFReformerKeysKit (0.1.0)
-  - FFSpecialKit (0.1.0):
+  - FFSpecialKit (0.3.0):
     - FFAPIsKit (~> 0.1.0)
-    - FFCategoryKit (~> 0.3.0)
+    - FFCategoryKit (~> 0.5.0)
     - FFCellsKit (~> 0.1.0)
     - FFConfigsKit (~> 0.1.0)
     - FFReformerKeysKit (~> 0.1.0)
@@ -81,11 +81,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FFAPIsKit: 039674e2d216da1eecd476affc04619e27d22c49
-  FFCategoryKit: 23617fef138724449c4a5344b1bcd7dd1ceaa717
+  FFCategoryKit: a745ce7dba22677b3d80fb19c35dd4705c2d170d
   FFCellsKit: 49bdd03740d222435d3142b28883b43f487b8900
   FFConfigsKit: 6333885e25f2bfc9a5ae24c9426a804fcd5886ea
   FFReformerKeysKit: aed9b6b65e9035642579eb6ee2cd7ded225e443e
-  FFSpecialKit: 7d7193fdc47a80aa7284ce23e86623d0d9d7e66b
+  FFSpecialKit: 96391c30cdcf7973a30b930ee388a924347be445
   FFToolsKit: 7b4a05af060a46cc38a3c4148b9cfda9d2453d66
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201

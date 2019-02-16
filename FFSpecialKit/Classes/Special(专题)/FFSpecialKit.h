@@ -7,6 +7,10 @@
 
 #ifndef FFSpecialKit_h
 #define FFSpecialKit_h
+
+/// 标记资源文件加载方式 0表示Example 1表示组件化后bundle加载
+#define load_bundle 1
+
 #import <FFAPIsKit/FFAPIsKit-umbrella.h>
 #import <FFCategoryKit/FFCategoryKit-umbrella.h>
 #import <FFCellsKit/FFCellsKit-umbrella.h>

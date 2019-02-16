@@ -11,8 +11,10 @@
 #endif
 
 #import "NSArray+Log.h"
+#import "NSObject+Extension.h"
 #import "UIButton+Extension.h"
 #import "UIColor+Hex.h"
+#import "UIImage+Extension.h"
 #import "UILabel+Extension.h"
 #import "UIView+FFFrame.h"
 

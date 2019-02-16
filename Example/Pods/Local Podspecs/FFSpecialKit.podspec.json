@@ -1,6 +1,6 @@
 {
   "name": "FFSpecialKit",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "A short description of FFSpecialKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/klayddd/FFSpecialKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/klayddd/FFSpecialKit.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -36,7 +36,7 @@
       "~> 2.5"
     ],
     "FFCategoryKit": [
-      "~> 0.3.0"
+      "~> 0.5.0"
     ],
     "FFAPIsKit": [
       "~> 0.1.0"
