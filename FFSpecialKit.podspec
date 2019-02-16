@@ -21,22 +21,30 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/stevenJiechen/FFSpecialKit'
+  s.homepage         = 'https://github.com/klayddd/FFSpecialKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'stevenJiechen' => '393304520@qq.com' }
-  s.source           = { :git => 'https://github.com/stevenJiechen/FFSpecialKit.git', :tag => s.version.to_s }
+  s.author           = { 'klay' => '393304520@qq.com' }
+  s.source           = { :git => 'https://github.com/klayddd/FFSpecialKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FFSpecialKit/Classes/**/*'
+  s.source_files = 'FFSpecialKit/**/*'
   
-  # s.resource_bundles = {
-  #   'FFSpecialKit' => ['FFSpecialKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'FFSpecialKit' => ['FFSpecialKit/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry'
+  s.dependency 'YYWebImage'
+  s.dependency 'ReactiveCocoa', '~> 2.5'
+  s.dependency 'FFCategoryKit', '~> 0.3.0'
+  s.dependency 'FFAPIsKit', '~> 0.1.0'
+  s.dependency 'FFCellsKit', '~> 0.1.0'
+  s.dependency 'FFReformerKeysKit', '~> 0.1.0'
+  s.dependency 'FFConfigsKit', '~> 0.1.0'
 end

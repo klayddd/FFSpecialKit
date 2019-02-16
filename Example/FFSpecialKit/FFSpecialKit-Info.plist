@@ -2,6 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>UIAppFonts</key>
+    <array>
+        <string>CODE BOLD.OTF</string>
+        <string>CODE LIGHT.OTF</string>
+        <string>FZXQJW_0.TTF</string>
+        <string>方正兰亭纤黑简体.TTF</string>
+    </array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>

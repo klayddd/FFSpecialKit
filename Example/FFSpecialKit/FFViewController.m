@@ -7,7 +7,7 @@
 //
 
 #import "FFViewController.h"
-
+#import "FFSpecialController.h"
 @interface FFViewController ()
 
 @end
