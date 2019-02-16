@@ -21,9 +21,10 @@
   "source_files": "FFSpecialKit/**/*",
   "resource_bundles": {
     "FFSpecialKit": [
-      "FFSpecialKit/*.png"
+      "FFSpecialKit/**/**/*.png"
     ]
   },
+  "frameworks": "UIKit",
   "dependencies": {
     "Masonry": [
 

@@ -161,7 +161,7 @@
         [self.bottomView.readBtn setTitle:data[kSpecialPropertyListKeyRead] forState:UIControlStateNormal];
         [self.bottomView.followBtn setTitle:data[kSpecialPropertyListKeyFollowNum] forState:UIControlStateNormal];
         [self.bottomView.commentBtn setTitle:data[kSpecialPropertyListKeyCommentNum] forState:UIControlStateNormal];
-        
+
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] init];
         [self.headImgView addGestureRecognizer:tap];
         @weakify(self)
